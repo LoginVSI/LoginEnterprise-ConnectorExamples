@@ -1,4 +1,26 @@
-# Windows 365 Connector Compatibility
+<!-- connector-examples-overview:start -->
+# Login Enterprise Connector Examples
+
+PowerShell examples for managing Login Enterprise connector files, including
+Windows 365 compatibility scripts and Custom Connector Packages.
+
+## Choose a workflow
+
+| Workflow | Example | Purpose |
+| --- | --- | --- |
+| Custom Connector Packages, Login Enterprise 6.9+ | [Package build and upload](examples/6.9-custom-connector-packages/README.md) | Upload a folder or existing ZIP to the Appliance; create or replace a named package. |
+| Windows 365 connector-script management, Login Enterprise 6.6/6.7+ | Existing scripts and version folders below | Manage Windows 365 connector scripts and Windows App compatibility. |
+
+The Custom Connector Package example manages files and package metadata.
+It does not implement or validate a working connector. Follow the
+[Custom Connector documentation](https://docs.loginvsi.com/login-enterprise/6.9/custom-connector)
+for connector setup and usage.
+
+The Windows 365 examples use a separate connector-script workflow. Existing
+script and folder paths are retained for compatibility with earlier links.
+
+## Windows 365 connector compatibility and existing examples
+<!-- connector-examples-overview:end -->
 
 This repository provides compatibility versions of the Windows 365 Connector workload script for Login Enterprise when the Windows App UI changes.
 
